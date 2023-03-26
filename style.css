@@ -1,0 +1,156 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+  background-color: #e3fde3;
+}
+
+img{
+  width: 350px;
+  height: 300px;
+  border: 5px solid black;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.title{
+  text-align: center;
+  background-color: #71ad71;
+  color: black;
+  padding: 30px;
+  font-size: 40px;
+  border-radius: 20px;
+  margin: 50px;
+  margin-bottom: 20px;
+  border: 5px solid black;
+  margin-top: 25px;
+}
+
+.flexboxContainer1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+
+.cards{
+  border: 5px solid black;
+  margin: 30px;
+  padding: 10px;
+  padding-top: 0px;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: #cff287;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  top: 100px;
+  transition: top 1s, opacity 0.8s;
+  opacity: 0;
+}
+
+.cards.slide{
+  top: 0;
+  opacity: 1;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: green;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.back2home{
+  text-align: center;
+  background-color: #92c49e;
+  color: black;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 5px solid black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  flex-basis: 0;
+  flex-shrink: 0;
+  min-width: 50px;
+}
+
+.back2home:hover{
+  background-color: green;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.flexboxContainer2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.historyDivs{
+  border: 5px solid black;
+  margin: 50px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #cff287;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  transition: top 1s, opacity 0.8s;
+  opacity: 0;
+}
+
+.roevwadeHistory{
+   margin-bottom: 0;
+}
+
+#protestList{
+  text-align: start;
+}
+
+#justFirst{
+  text-align: center;
+}
+
+li{
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.clickhere{
+  padding: 10px;
+}
+
+.imageRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 25px;
+  margin-top: 0;
+}
+
+.yas{
+  border: 5px solid black;
+  border-radius: 20px;
+  cursor: auto;
+}
+
+.historyDivs.slide{
+  top: 0;
+  opacity: 1;
+}
